@@ -1,0 +1,23 @@
+{
+  "name": "ndpixels",
+  "version": "1.0.0",
+  "description": "ndpixels are ndarrays in a format for pixels",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livejs/ndpixels.git"
+  },
+  "keywords": [
+    "ndpixels",
+    "ndarray",
+    "pixels",
+    "image"
+  ],
+  "contributors": [
+    "ahdinosaur"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/livejs/ndpixels/issues"
+  },
+  "homepage": "https://github.com/livejs/ndpixels#readme"
+}
