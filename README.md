@@ -8,7 +8,7 @@ ndpixels are [ndarrays](https://npmjs.org/ndarray) in a format for pixels.
 
 ### frame
 
-ndpixels are ndarrays in raster order, such as:
+ndpixels are ndarrays in raster order, with shapes such as:
 
 ```
 [width, channels]
