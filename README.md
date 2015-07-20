@@ -4,11 +4,13 @@ ndpixels are [ndarrays](https://npmjs.org/ndarray) in a format for pixels.
 
 [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
 
-## format
+## spec
 
-### frame
+each `ndpixels` frame should have the following properties:
 
-ndpixels are ndarrays in raster order, with shapes such as:
+### `shape`
+
+should be an `Array` of the form:
 
 ```
 [width, channels]
@@ -16,21 +18,25 @@ ndpixels are ndarrays in raster order, with shapes such as:
 [width, height, depth, channels]
 ```
 
-### pixel
+### `data`
 
-each pixel is described by channels, such as:
+if we [`.pick(width, ...)`](https://github.com/scijs/ndarray#arraypickp0-p1-), we should see [channel data](https://en.wikipedia.org/wiki/Channel_(digital_image)) in a form such as:
 
 ```
-[keyword]
-[red, green, blue]
-[hue, saturation, value]
-[hue, saturation, lightness]
-[hue, whiteness, blackness]
-[x, y, z]
-[lightness, a, b]
-[l, c, h]
-[cyan, magenta, yellow, key]
+[keyword] // keyword
+[red, green, blue] // rgb
+[hue, saturation, value] // hsv
+[hue, saturation, lightness] // hsl
+[hue, whiteness, blackness] // hwb
+[x, y, z] // xyz
+[lightness, a, b] // lab
+[l, c, h] // lch
+[cyan, magenta, yellow, key] // cmyk
 ```
+
+### `format`
+
+should be a `String` identifier for the color space model, e.g. `rgb`.
 
 ## modules
 
