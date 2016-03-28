@@ -51,7 +51,11 @@ some modules use ndpixels.
 - [ndarray-homography](https://www.npmjs.com/ndarray-homography)
 - [ndpack-image](https://www.npmjs.com/ndpack-image)
 - [ndarray-pixel-sort](https://www.npmjs.com/package/ndarray-pixel-sort)
+- [pixels-canvas](https://github.com/livejs/pixels-canvas)
+- [pixel-to-css-color](https://github.com/livejs/pixel-to-css-color)
+- [rainbow-pixels](https://github.com/ahdinosaur/rainbow-pixels)
 - [ndpixels-convert](https://www.npmjs.com/ndpixels-convert)
+- [pixels-apa102](https://github.com/livejs/pixels-apa102)
 - [ndpixels-opc](https://www.npmjs.com/ndpixels-opc)
 - [2dpixels-terminal](https://www.npmjs.com/2dpixels-terminal)
 
