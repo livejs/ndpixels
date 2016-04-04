@@ -43,7 +43,10 @@ should be a `String` identifier for the color space model, e.g. `rgb`.
 some modules use ndpixels. 
 
 - [get-pixels](https://www.npmjs.com/package/get-pixels)
+- [ndarray-from-image](https://www.npmjs.com/package/ndarray-from-image)
+- [ndarray-from-canvas](https://www.npmjs.com/package/ndarray-from-canvas)
 - [save-pixels](https://www.npmjs.com/package/save-pixels)
+- [data-uri-to-ndarray](https://www.npmjs.com/package/data-uri-to-ndarray)
 - [apply-colormap](https://github.com/mikolalysenko/apply-colormap)
 - [ndarray-imshow](https://github.com/scijs/ndarray-imshow)
 - [baboon-image](https://www.npmjs.com/package/baboon-image)
