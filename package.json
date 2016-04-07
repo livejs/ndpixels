@@ -1,6 +1,6 @@
 {
   "name": "ndpixels",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ndpixels are ndarrays in a format for pixels",
   "repository": {
     "type": "git",
