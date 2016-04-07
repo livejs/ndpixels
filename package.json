@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/livejs/ndpixels.git"
   },
+  "scripts": {
+    "test": "tape test.js"
+  },
   "keywords": [
     "ndpixels",
     "ndarray",
@@ -15,9 +18,18 @@
   "contributors": [
     "ahdinosaur"
   ],
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/livejs/ndpixels/issues"
   },
-  "homepage": "https://github.com/livejs/ndpixels#readme"
+  "homepage": "https://github.com/livejs/ndpixels#readme",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "describe-property": "^1.1.0",
+    "t-ndarray": "^2.3.0",
+    "tcomb": "^3.0.0",
+    "tcomb-defaults": "^1.2.0"
+  }
 }
